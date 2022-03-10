@@ -20,6 +20,7 @@ public class MovieDTO {
 		this.count = count;
 		this.image = image;
 	}
+	
 	public MovieDTO(Movie movie) {
 		id = movie.getId();
 		title = movie.getTitle();
@@ -67,8 +68,4 @@ public class MovieDTO {
 	public void setImage(String image) {
 		this.image = image;
 	}
-	
-	
-	
-
 }
