@@ -6,7 +6,7 @@ type Props = {
     movie: Movie;
 }
 
-function MovieCard({ movie } : Props) {
+function MovieCard( { movie } : Props) {
 
     return (
         <div>
@@ -23,4 +23,5 @@ function MovieCard({ movie } : Props) {
         </div>
     );
 }
+
 export default MovieCard;
